@@ -28,12 +28,12 @@ header {
 }
 
 .registro {
-    border: 1px dotted $meio-azul;
+    border: 1px dotted $meio-vermelho;
     padding: 1rem;
     border-radius: 2px;
     margin-bottom: 1rem;
     &:hover {
-        background-color: $meio-azul;
+        background-color: $meio-vermelho;
         border: 1px solid transparent;
         * {
             color: $branco;
@@ -48,6 +48,8 @@ header {
     margin-bottom: 1rem;
     position: relative;
     mix-blend-mode: multiply;
+    pointer-events: none;
     opacity: 0.5;
-    transform: scale(1.5) translateY(16.6666%) rotate(180deg);
+    transform: translateY(16.6666%) scale(1.5) rotate(270deg);
+    //transform: scale(1.5) translateY(16.6666%) rotate(180deg);
 }
