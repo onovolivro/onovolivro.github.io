@@ -30,7 +30,7 @@
 	justify-content: flex-start;
 	align-items: flex-start;
 	align-content: flex-start;
-	@media #{$phoneOnly} {
+	@media #{$phone} {
 		padding-left: $phoneGutter / 2;
 		padding-right: $phoneGutter / 2;
 	}
@@ -52,7 +52,7 @@
 }
 
 @mixin element {
-	@media #{$phoneOnly} {
+	@media #{$phone} {
 		width: calc(100% - #{$phoneGutter});
 		margin-left: $phoneGutter/2;
 		margin-right: $phoneGutter/2;
@@ -100,7 +100,7 @@
 
 	article, form, fieldset,
 	datalist, select, optgroup,
-	nav, div, aside {
+	nav, div, aside, ul, ol {
 		@include container;
 	}
 
@@ -111,7 +111,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6, p, img, blockquote, audio,
-	video, hr, br, wbr, ol, ul, figure, dl, legend, input,
+	video, hr, br, wbr, ul > *, ol > *, figure, dl, legend, input,
 	textarea, button, output, option, meter, progress {
 		@include element;
 		* {
@@ -119,13 +119,30 @@
 		}
 	}
 
-	@media #{$phoneOnly} {
+	@for $i from 1 through $subgrid {
+		.sub-#{$i} {
+			width: calc(100% - #{$defaultGutter});
+			margin-left: $defaultGutter/2;
+			margin-right: $defaultGutter/2;
+			@include subwrapper;
+			* {
+				@include subelement
+			}
+			> .subcol {
+		        width: calc(#{percentage(1/$i)} - #{($i - 1)*$defaultGutter/$i});
+		        margin-left: 0;
+				margin-right: 0;
+		    }
+		}
+	}
+
+	@media #{$phone} {
 		.phone-0 {
 			display: none;
 		}
 	}
 
-	@media #{$mobileOnly} {
+	@media #{$mobile} {
 		.mobile-0 {
 			display: none;
 		}
@@ -149,7 +166,7 @@
 		}
 	}
 
-	@media #{$phoneOnly} {
+	@media #{$phone} {
 
 		@for $i from 1 through $subgrid {
 
@@ -340,13 +357,6 @@
 		}
 
 	}
-
-	// .element {
-	// 	@include element;
-	// 	* {
-	// 		@include subelement;
-	// 	}
-	// }
 
 	.subwrapper {
 		@include subwrapper;

@@ -5,24 +5,35 @@
 
 
 // Our variables
-$base-font-family: "Greta Sans", Helvetica, Arial, sans-serif;
-$aux-font-family: "Fedra Serif B", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font: "Greta Sans", Helvetica, Arial, sans-serif;
+$aux-font: "Fedra Serif B", Helvetica, Arial, sans-serif;
+
+$base-font-size:   .75rem;
+$aux-font-size:   1.2rem;
+
 $base-font-weight: 200;
 $aux-font-weight: 300;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+
+$base-line-height: 1rem;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color: #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$azul: #0000ff;
+$vermelho: #ff0000;
+$meio-vermelho: rgba(255, 0, 0, .5);
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$preto: #000;
+$cinza: #828282;
+$branco: #fff;
+$meio-branco: rgba(255, 255, 255, .5);
+$cinza-claro: lighten($cinza, 40%);
+$cinza-escuro:  darken($cinza, 25%);
 
 @import
-    "base"
+	"variaveis",
+    "base",
+    "tipografia",
+    "componentes"
 ;

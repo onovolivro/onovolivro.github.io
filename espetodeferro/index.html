@@ -2,22 +2,22 @@
 layout: default
 ---
 
-<div class="home">
+<section class="wrapper negativo capa">
+  <blockquote>{{ site.description }}</blockquote>
+</section>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
+<section class="wrapper">
+  <h2>Registros</h2>
+  <ul>
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+      <a class="tablet-6 desktop-4 registro" href="{{ post.url | prepend: site.baseurl }}">
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h1>
+            {{ post.title }}
+          </h1>
+        </li>
+      </a>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+</section>

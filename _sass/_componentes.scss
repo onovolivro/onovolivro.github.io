@@ -1,0 +1,42 @@
+header, section {
+    padding-bottom: 1rem;
+    &:first-child {
+        padding-top: 1rem;
+    }
+}
+
+.negativo + * {
+    padding-top: 1rem;
+}
+
+.negativo + .negativo {
+    padding-top: 0;
+}
+
+header {
+    border-bottom: 1px solid $preto;
+    &.negativo {
+        background-color: $preto;
+    }
+}
+
+.capa {
+    blockquote {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+}
+
+.registro {
+    border: 1px solid $meio-vermelho;
+    padding: 1rem;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    &:hover {
+        background-color: $meio-vermelho;
+        border: 1px solid transparent;
+        * {
+            color: $branco;
+        }
+    }
+}
