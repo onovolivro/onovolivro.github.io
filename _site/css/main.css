@@ -18,14 +18,15 @@ body {
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
-  font-kerning: normal; }
+  font-kerning: normal;
+  padding-bottom: 2rem; }
 
 .negativo {
   background-color: #000; }
   .negativo h1, .negativo h2, .negativo h3, .negativo h4, .negativo h5, .negativo h6, .negativo p, .negativo li {
     color: #fff; }
   .negativo a {
-    color: #ff0000; }
+    color: #0000ff; }
 
 header {
   font-weight: 700; }
@@ -85,12 +86,22 @@ header {
   padding-top: 1rem; }
 
 .registro {
-  border: 1px solid rgba(255, 0, 0, 0.5);
+  border: 1px dotted rgba(0, 0, 255, 0.5);
   padding: 1rem;
   border-radius: 2px;
   margin-bottom: 1rem; }
   .registro:hover {
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(0, 0, 255, 0.5);
     border: 1px solid transparent; }
     .registro:hover * {
       color: #fff; }
+
+#pedra {
+  width: 33.333%;
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+  mix-blend-mode: multiply;
+  opacity: 0.5;
+  transform: scale(1.5) translateY(16.6666%) rotate(180deg); }
