@@ -1,0 +1,11 @@
+title: O Novo Livro Digital
+email: contato@onovolivro.digital
+description: >
+  Registro do processo de design de uma nova plataforma para criação
+  e publicação colaborativa de web livros. É também por si só uma publicação
+  digital e um local para experimentos web interativos.
+baseurl: "/espetodeferro"
+url: "http://onovolivro.digital"
+github_username:  vtrmrx
+
+markdown: kramdown
