@@ -204,10 +204,16 @@
 
 			.phone-left-#{$i} {
 				margin-left: calc(#{$i*$phoneColumn} + #{$phoneGutter/2});
+				* {
+					@include subelement
+				}
 			}
 
 			.phone-right-#{$i} {
 				margin-right: calc(#{$i*$phoneColumn} + #{$phoneGutter/2});
+				* {
+					@include subelement
+				}
 			}
 
 		}
@@ -252,10 +258,16 @@
 
 			.tablet-left-#{$i} {
 				margin-left: calc(#{$i*$tabletColumn} + #{$tabletGutter/2});
+				* {
+					@include subelement
+				}
 			}
 
 			.tablet-right-#{$i} {
 				margin-right: calc(#{$i*$tabletColumn} + #{$tabletGutter/2});
+				* {
+					@include subelement
+				}
 			}
 
 		}
@@ -300,10 +312,16 @@
 
 			.desktop-left-#{$i} {
 				margin-left: calc(#{$i*$desktopColumn} + #{$desktopGutter/2});
+				* {
+					@include subelement
+				}
 			}
 
 			.desktop-right-#{$i} {
 				margin-right: calc(#{$i*$desktopColumn} + #{$desktopGutter/2});
+				* {
+					@include subelement
+				}
 			}
 
 		}
@@ -348,10 +366,16 @@
 
 			.large-left-#{$i} {
 				margin-left: calc(#{$i*$largeColumn} + #{$largeGutter/2});
+				* {
+					@include subelement
+				}
 			}
 
 			.large-right-#{$i} {
 				margin-right: calc(#{$i*$largeColumn} + #{$largeGutter/2});
+				* {
+					@include subelement
+				}
 			}
 
 		}

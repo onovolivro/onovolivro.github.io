@@ -7,10 +7,14 @@
   box-sizing: border-box; }
 
 html {
-  font-size: 150%; }
+  font-size: 150%;
+  background-color: #000; }
+  @media all and (max-width: 64rem) {
+    html {
+      font-size: 120%; } }
 
 body {
-  font: 200 0.75rem/1rem "Greta Sans", Helvetica, Arial, sans-serif;
+  font: 200 1rem/1.5rem "Greta Sans", Helvetica, Arial, sans-serif;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -19,66 +23,74 @@ body {
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
-  padding-bottom: 2rem; }
+  background-color: #fff; }
 
 .negativo {
   background-color: #000; }
   .negativo h1, .negativo h2, .negativo h3, .negativo h4, .negativo h5, .negativo h6, .negativo p, .negativo li {
     color: #fff; }
   .negativo a {
-    color: #ff0000; }
+    color: #fff; }
+    .negativo a:hover {
+      color: #0000ff; }
 
-header {
+header, footer {
   font-weight: 700; }
+  header a, footer a {
+    margin-bottom: 1.5rem; }
 
 a {
   text-decoration: none;
-  color: unset; }
+  color: #0000ff; }
 
 h1, h2, h3, h4, h5, h6, p {
   font-family: "Greta Sans", Helvetica, Arial, sans-serif; }
 
 h1 {
-  font-size: 2.5rem;
-  line-height: 3rem; }
+  font-size: 3rem;
+  line-height: 3.2rem; }
 
 h2 {
-  font-size: 1.5rem;
-  line-height: 2rem;
-  margin-bottom: 1rem; }
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-bottom: 1.5rem; }
+
+h3 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem; }
 
 p, blockquote {
-  margin-bottom: 1rem; }
-  p:last-child, blockquote:last-child {
-    margin-bottom: 0; }
+  margin-bottom: 1.5rem; }
 
 blockquote {
   font-family: "Fedra Serif B", Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
-  line-height: 2rem;
+  line-height: 2.4rem;
   color: #828282; }
-  @media all and (max-width: 64rem) {
-    blockquote {
-      font-size: 1.1rem;
-      line-height: 1.5rem; } }
+
+figure {
+  margin-bottom: 1.5rem; }
 
 li {
   list-style-type: none; }
 
-header, section {
-  padding-bottom: 1rem; }
-  header:first-child, section:first-child {
-    padding-top: 1rem; }
+header:first-child, footer:first-child, section:first-child {
+  padding-top: 1.5rem; }
+
+footer {
+  padding-top: 1.5rem;
+  margin-top: 3rem; }
 
 .negativo + * {
-  padding-top: 1rem; }
+  padding-top: 1.5rem; }
 
 .negativo + .negativo {
   padding-top: 0; }
 
-header {
+header, footer {
   border-bottom: 1px solid #000; }
-  header.negativo {
+  header.negativo, footer.negativo {
     background-color: #000; }
 
 .capa blockquote {
@@ -86,23 +98,15 @@ header {
   padding-top: 1rem; }
 
 .registro {
-  border: 1px dotted rgba(255, 0, 0, 0.5);
-  padding: 1rem;
+  border: 1px dotted rgba(0, 0, 255, 0.5);
+  padding: 1.5rem;
   border-radius: 2px;
-  margin-bottom: 1rem; }
+  margin-bottom: 1.5rem; }
   .registro:hover {
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(0, 0, 255, 0.5);
     border: 1px solid transparent; }
     .registro:hover * {
       color: #fff; }
 
 #pedra {
-  width: 33.333%;
-  float: left;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  position: relative;
-  mix-blend-mode: multiply;
-  pointer-events: none;
-  opacity: 0.5;
-  transform: translateY(16.6666%) scale(1.5) rotate(270deg); }
+  margin-bottom: 1.5rem; }

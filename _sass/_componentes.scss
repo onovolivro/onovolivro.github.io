@@ -1,19 +1,23 @@
-header, section {
-    padding-bottom: 1rem;
+header, footer, section {
     &:first-child {
-        padding-top: 1rem;
+        padding-top: 1.5rem;
     }
 }
 
+footer {
+    padding-top: 1.5rem;
+    margin-top: 3rem;
+}
+
 .negativo + * {
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 }
 
 .negativo + .negativo {
     padding-top: 0;
 }
 
-header {
+header, footer {
     border-bottom: 1px solid $preto;
     &.negativo {
         background-color: $preto;
@@ -28,12 +32,12 @@ header {
 }
 
 .registro {
-    border: 1px dotted $meio-vermelho;
-    padding: 1rem;
+    border: 1px dotted $meio-azul;
+    padding: 1.5rem;
     border-radius: 2px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     &:hover {
-        background-color: $meio-vermelho;
+        background-color: $meio-azul;
         border: 1px solid transparent;
         * {
             color: $branco;
@@ -42,14 +46,5 @@ header {
 }
 
 #pedra {
-    width: 33.333%;
-    float: left;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    position: relative;
-    mix-blend-mode: multiply;
-    pointer-events: none;
-    opacity: 0.5;
-    transform: translateY(16.6666%) scale(1.5) rotate(270deg);
-    //transform: scale(1.5) translateY(16.6666%) rotate(180deg);
+    margin-bottom: 1.5rem;
 }

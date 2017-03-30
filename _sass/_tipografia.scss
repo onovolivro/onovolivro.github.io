@@ -4,17 +4,23 @@
         color: $branco;
     }
     a {
-        color: $vermelho;
+        color: $branco;
+        &:hover {
+            color: $azul;
+        }
     }
 }
 
-header {
+header, footer {
     font-weight: 700;
+    a {
+        margin-bottom: 1.5rem;
+    }
 }
 
 a {
     text-decoration: none;
-    color: unset;
+    color: $azul;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -22,32 +28,35 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-    font-size: 2.5rem;
-    line-height: 3rem;
+    font-size: 3rem;
+    line-height: 3.2rem;
 }
 
 h2 {
-    font-size: 1.5rem;
-    line-height: 2rem;
-    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 p, blockquote {
-    margin-bottom: 1rem;
-    &:last-child {
-        margin-bottom: 0;
-    }
+    margin-bottom: 1.5rem;
 }
 
 blockquote {
     font-family: $aux-font;
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 2.4rem;
     color: $cinza;
-    @media #{$mobile} {
-        font-size: 1.1rem;
-        line-height: 1.5rem;
-    }
+}
+
+figure {
+    margin-bottom: 1.5rem;
 }
 
 li {
