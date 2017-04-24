@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="699.32" height="607.56" viewBox="0 0 699.32 607.56">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: blue;
+        stroke-miterlimit: 10;
+      }
+
+      .b {
+        fill: #fff;
+      }
+
+      .c {
+        font-size: 23.84px;
+      }
+
+      .c, .e, .i, .k {
+        fill: blue;
+      }
+
+      .c, .e, .i {
+        font-family: FedraSansStd-Light, Fedra Sans Std;
+      }
+
+      .d {
+        letter-spacing: 0.03em;
+      }
+
+      .e, .i {
+        font-size: 24px;
+      }
+
+      .f, .i {
+        letter-spacing: 0.03em;
+      }
+
+      .g {
+        letter-spacing: 0.01em;
+      }
+
+      .h {
+        letter-spacing: 0.03em;
+      }
+
+      .j {
+        letter-spacing: 0.02em;
+      }
+
+      .k {
+        font-size: 16px;
+        font-family: FedraSerifB-BookItalic, FedraSerifB Book;
+        font-style: italic;
+      }
+
+      .l {
+        letter-spacing: -0.02em;
+      }
+
+      .m {
+        letter-spacing: -0.02em;
+      }
+
+      .n {
+        letter-spacing: -0.02em;
+      }
+
+      .o {
+        letter-spacing: 0.01em;
+      }
+
+      .p {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <title>processo-iterativo</title>
+  <circle class="a" cx="349.48" cy="301.56" r="286.1"/>
+  <polyline class="a" points="551.78 67.9 551.78 99.25 520.43 99.25"/>
+  <polyline class="a" points="583.13 503.86 551.78 503.86 551.78 472.51"/>
+  <polyline class="a" points="147.18 535.22 147.18 503.86 178.53 503.86"/>
+  <polyline class="a" points="115.82 99.25 147.18 99.25 147.18 130.61"/>
+  <rect class="b" x="285.74" width="127.48" height="39.8"/>
+  <text class="c" transform="translate(300.12 25.32) scale(1.01 1)"><tspan class="d">COLE</tspan><tspan x="58" y="0">T</tspan><tspan class="d" x="70.38" y="0">AR</tspan></text>
+  <rect class="b" x="285.74" y="567.76" width="127.48" height="39.8"/>
+  <text class="e" transform="translate(295.99 587.66)"><tspan class="f">P</tspan><tspan class="g" x="13.18" y="0">R</tspan><tspan class="h" x="27.79" y="0">OJE</tspan><tspan x="66.65" y="0">T</tspan><tspan class="f" x="79.1" y="0">AR</tspan></text>
+  <rect class="b" x="571.84" y="274.31" width="127.48" height="39.8"/>
+  <text class="i" transform="translate(582.49 301.56)">A<tspan class="j" x="13.49" y="0">N</tspan><tspan x="30.84" y="0">ALISAR</tspan></text>
+  <rect class="b" y="274.31" width="127.48" height="39.8"/>
+  <text class="e" transform="translate(22.91 301.56)"><tspan class="f">TES</tspan><tspan x="40.61" y="0">T</tspan><tspan class="f" x="53.06" y="0">AR</tspan></text>
+  <text class="k" transform="translate(503.78 232.62)">identificar <tspan x="-25.95" y="24">oportunidades</tspan><tspan x="-16.03" y="60">criar </tspan><tspan class="l" x="17.04" y="60">r</tspan><tspan x="22.24" y="60">ecortes</tspan><tspan x="-21.86" y="96">criar histórias</tspan><tspan x="3.06" y="132">pe</tspan><tspan class="l" x="17.97" y="132">r</tspan><tspan x="23.17" y="132">guntar</tspan></text>
+  <text class="k" transform="translate(128.79 262.02)">perturbar<tspan x="0" y="36">experimentar</tspan><tspan x="0" y="72">p</tspan><tspan class="m" x="7.97" y="72">r</tspan><tspan x="13.18" y="72">o</tspan><tspan class="n" x="20.86" y="72">v</tspan><tspan x="27.89" y="72">ocar</tspan></text>
+  <text class="k" transform="translate(322.99 72.77)">explo<tspan class="m" x="34.58" y="0">r</tspan><tspan x="39.79" y="0">ar</tspan><tspan x="-2.48" y="36">descobrir</tspan><tspan x="-3.96" y="72">pesquisar</tspan></text>
+  <text class="k" transform="translate(282.1 371.67)">imaginar/ visualizar <tspan x="40.62" y="24">cenários</tspan><tspan x="6.19" y="60">desenhar hipóteses</tspan><tspan x="13.92" y="96">p</tspan><tspan class="m" x="21.89" y="96">r</tspan><tspan x="27.1" y="96">opor soluções/ </tspan><tspan x="26.95" y="120">inte</tspan><tspan class="o" x="52.7" y="120">r</tspan><tspan class="n" x="58.38" y="120">v</tspan><tspan class="p" x="65.4" y="120">enções</tspan><tspan x="18" y="156">criar p</tspan><tspan class="m" x="59.04" y="156">r</tspan><tspan x="64.25" y="156">otótipos</tspan></text>
+</svg>
